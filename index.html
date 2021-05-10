@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Login_page</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+
+    </head>
+    <body>
+        <div class="login">
+            <h1>Login</h1>
+            <div class="links">
+                <a href="{{url_for('login')}}"class="active">Login</a>
+                <a heaf="#"Registor></a>
+            </div>
+            <form action="{{url_for('login')}}"method="post">
+                    <label for="username">
+                        <i class="fas fs-user"></i>
+                    </label>
+                    <input type="text" name="username" placeholder="Username" if="username" required>
+                    <label for="password">
+                        <i class="fas fa-lock"></i>
+                    </label>
+                    <input type="password" name="password" placeholder="Passward" id="passw0rd" required>
+                    <div class ="msg">{{msg}}</div>
+                    <input type="submit" value="Login">
+
+            </form>
+        </div>
+    </body>
+</html>

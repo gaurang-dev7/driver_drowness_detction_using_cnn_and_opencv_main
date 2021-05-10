@@ -1,0 +1,13 @@
+PyQt5
+keras
+scipy
+imutils
+numpy
+opencv-python
+dlib
+threaded
+pyglet
+cmake
+os-sys
+texteditor
+Flask
